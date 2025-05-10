@@ -62,7 +62,7 @@ body {
 
 .header__title {
   font-family: "Noto Serif", "Times New Roman", serif;
-
+  max-width: 709px;
   font-size: 58px;
   font-weight: normal;
   line-height: 72px;
@@ -122,6 +122,10 @@ body {
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
 }
 
 .recipes__subtitle {
@@ -129,7 +133,10 @@ body {
   line-height: 30px;
   margin-bottom: 80px;
   font-weight: normal;
-  font-family: Noto serif;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .recipes__videos {
@@ -149,4 +156,10 @@ body {
   line-height: 30px;
   margin-top: 24px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
 }
