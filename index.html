@@ -45,19 +45,9 @@
           alt="Imagen principal"
           class="header__image"
         />
-        <footer class="header__footer">
-          <p>
-            Horario:<br />
-            Lunes a Viernes (de 10:00h a 19:00h)<br />
-            Sábados y Domingos (de 11:00h a 18:00h)<br />
-          </p>
-          <p class="header__address">
-            Avenida del Éxito 200, Ciudad Triple Peaks
-          </p>
-        </footer>
       </header>
 
-      <main>
+      <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recetas</h2>
           <p class="recipes__subtitle">
@@ -69,9 +59,10 @@
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 allowfullscreen
+                title="Receta en Aeropress"
               ></iframe>
               <div class="recipes__video-caption">
-                <span class="caption-left"> Receta en Aeropress</span>
+                <span class="caption-left">Receta en Aeropress</span>
                 <span class="caption-right">~5 min</span>
               </div>
             </div>
@@ -79,19 +70,46 @@
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 allowfullscreen
+                title="Receta en cafetera francesa"
               ></iframe>
               <div class="recipes__video-caption">
-                <span class="caption-left"> Receta en cafetera francesa </span>
-                <span class="caption-right"> ~15 min</span>
+                <span class="caption-left">Receta en cafetera francesa</span>
+                <span class="caption-right">~15 min</span>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="contact" id="contact"></section>
+        <section class="contact" id="contact">
+          <h2 class="contact__title">Contáctanos</h2>
+          <p class="contact__text">
+            Puedes escribirnos a contacto@cafeteria.com o llamarnos al 1234 567
+            890.
+          </p>
+        </section>
 
-        <section class="reserve" id="reserve"></section>
+        <section class="reserve" id="reserve">
+          <h2 class="reserve__title">Reserva una mesa</h2>
+          <form class="reserve__form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required />
+            <button type="submit">Reservar</button>
+          </form>
+        </section>
       </main>
+
+      <footer class="footer">
+        <p>
+          Horario:<br />
+          Lunes a Viernes (de 10:00h a 19:00h)<br />
+          Sábados y Domingos (de 11:00h a 18:00h)<br />
+        </p>
+        <p class="footer__address">
+          Avenida del Éxito 200, Ciudad Triple Peaks
+        </p>
+      </footer>
     </div>
   </body>
 </html>
