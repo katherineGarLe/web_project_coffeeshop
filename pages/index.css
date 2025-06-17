@@ -166,6 +166,7 @@ body {
 
 .reservation {
   background-color: #2f80ed;
+  background-image: url("./");
   padding: 100px 80px;
   text-align: center;
 }
