@@ -1,0 +1,59 @@
+.header {
+  background-color: #ffffff;
+  background-image: url("./background_header.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-height: 800px;
+  min-height: 720px;
+  padding: 80px 80px 80px 80px;
+  position: relative;
+  color: #000000;
+}
+.header__title {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  max-width: 709px;
+  font-size: 58px;
+  font-weight: normal;
+  line-height: 72px;
+  max-width: 709px;
+  margin-top: 183px;
+}
+
+.header__span-accent {
+  color: #2f80ed;
+  font-style: italic;
+}
+.header__description {
+  font-size: 18px;
+  max-width: 683px;
+  margin-top: 28px;
+  margin-bottom: 80px;
+  font-family: "noto serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  bottom: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  color: #838383;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  right: 80px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
