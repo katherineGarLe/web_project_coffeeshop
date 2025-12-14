@@ -8,14 +8,15 @@
     <meta name="keywords" content="html, css" />
     <title>Cafetería</title>
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
@@ -164,14 +165,40 @@
       </main>
 
       <footer class="footer">
-        <p>
-          Horario:<br />
-          Lunes a Viernes (de 10:00h a 19:00h)<br />
-          Sábados y Domingos (de 11:00h a 18:00h)<br />
-        </p>
-        <p class="footer__address">
-          Avenida del Éxito 200, Ciudad Triple Peaks
-        </p>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">© 2024 Katherine Garcia Lemir</p>
       </footer>
     </div>
   </body>
